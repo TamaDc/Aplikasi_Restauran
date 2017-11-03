@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.tama.aplikasi_restauran.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayam Bakar kalasan"
+        android:textSize="24sp"
+        android:layout_alignBottom="@+id/jml_ayam"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gulai Kepala Ikan"
+        android:textSize="24sp"
+        android:layout_alignBottom="@+id/jml_gulai"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/jml_ayam"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/jml_gulai"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/jml_gulai"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <EditText
+        android:id="@+id/jml_iga"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:layout_editor_absoluteX="8dp"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/jml_esteh"
+        android:layout_alignBottom="@+id/jml_esteh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Es Teh Manis"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rujak SIngapura"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/jml_rujak"
+        android:layout_alignBottom="@+id/jml_rujak"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/jml_rujak"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_below="@+id/jml_spageti"
+        android:inputType="number"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="sphageti carbonara"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/jml_esteh"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:inputType="number"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/jml_rujak"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="19dp"
+        android:text="Mendoang Anget"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/jml_spageti"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:inputType="number"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="22dp"
+        android:text="Iga Bakar Sabal Rujak"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/jml_mendoan"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:inputType="number"
+        android:layout_alignParentRight="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+
+        android:id="@+id/pesanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="doPesan"
+        />
+
+
+
+
+</RelativeLayout>
+
+

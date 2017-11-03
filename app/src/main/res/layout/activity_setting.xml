@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.tama.aplikasi_restauran.Setting_Activity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayam Bakar kalasan"
+        android:textSize="24sp"
+        android:layout_alignTop="@+id/harga_ayam"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gulai Kepala Ikan"
+        android:textSize="24sp"
+        android:layout_above="@+id/harga_ayam"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/harga_ayam"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/harga_gulai"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/harga_iga"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_above="@+id/harga_mendoan"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/harga_esteh"
+        android:layout_alignBottom="@+id/harga_esteh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Es Teh Manis"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rujak SIngapura"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/harga_rujak"
+        android:layout_alignBottom="@+id/harga_rujak"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/harga_rujak"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_above="@+id/harga_esteh"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="13dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sphageti carbonara"
+        android:textSize="24sp"
+        android:layout_alignTop="@+id/harga_spageti"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/harga_esteh"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_above="@+id/simpanButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mendoang Anget"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/harga_mendoan"
+        android:layout_alignBottom="@+id/harga_mendoan"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/harga_spageti"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_above="@+id/harga_rujak"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iga Bakar Sabal Rujak"
+        android:textSize="24sp"
+        android:layout_alignTop="@+id/harga_iga"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/harga_mendoan"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_above="@+id/harga_spageti"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/simpanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:layout_toLeftOf="@+id/harga_gulai"
+        android:layout_toStartOf="@+id/harga_gulai"
+        android:text="Setting Harga"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>
